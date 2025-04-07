@@ -1,0 +1,319 @@
+@media (max-width:390px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 390px;
+
+    }
+
+    header{
+        height: 160px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        align-items: center;
+        background-color: red;
+    }
+
+    .header-img-div{
+        background-color:   aqua;
+        width: 60%; 
+        height: 50%;
+
+    }
+
+    .header-img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    }
+
+    .header-link-div{
+        /* background-color: rgb(33, 38, 38); */
+        height: 100%;
+        /* width: 50%; */
+        display: flex;
+        justify-content: center;
+        gap: px;
+        align-items: center;
+    }
+    
+    .header-link{
+        /* background-color: beige; */
+        font-size: 1px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    .header-mobile-div{
+        width: 20%;
+        /* height: 40%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+        border-radius: 10px;
+    }
+
+    .header-mobile-btn{
+        height: 30%;
+        width: 90%;
+        cursor: pointer;
+    }
+
+
+
+
+    .menu-burger{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger-header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 98%;
+        margin-top: 20px;
+    }
+
+    .burger-header-img{
+        width: 50%;
+        margin-left: 15px;
+    }
+
+    .burger-exit{
+        font-size: 20px;
+        /* margin-left: 35px; */
+    }
+    .burger-link-div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .burger-menu-link{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .burger-btn-div{
+        display: flex;
+    }
+
+    .burger-btn-div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .burger-btn-1{
+        /* background-color: grey; */
+        width: 70px;
+        height: 45px;
+        border-radius: 55px;
+        border: 1px grey solid;
+        font-size: 19px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    
+    .burger-btn-1:hover{
+        background-color: rgb(206, 206, 206);
+        color: white;
+        transition: 0.2s;
+    }
+    
+    .burger-btn-2{
+        background-color: rgb(255, 187, 0);
+        width: 140px;
+        height: 45px;
+        border: 1px grey solid;
+        border-radius: 55px;
+        font-size: 19px;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+    
+    .burger-btn-2:hover{
+        background-color: white;
+        color: rgb(255, 187, 0);
+        transition: 0.2s;
+    }
+
+    .main-1{
+        width: 100%;   
+        margin-left: 0%; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr); 
+    }
+
+    .main-1-div-2{
+        grid-row-start: 1;
+        grid-row-end:   2;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-1-div-1{
+        grid-row-start: 2;
+        grid-row-end:   3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-1-p{
+        font-size: 40px;
+    }
+    .main-1-img:hover{
+        width:  100%;
+        height: 80%;
+        /* margin-top: 20%; */
+        transition: 0.9s;
+    }
+
+
+
+
+
+
+    .main-2{
+        /* background-color: rgb(35, 187, 5); */
+        width: 100%;
+        height: 150vh;
+        margin-top: 700px;
+        margin-left: 0%;
+    }
+
+    .main-2-grid{
+        /* background-color: black; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:    repeat(2, 1fr);
+        height: 40%;
+        margin-top: 40px;
+    }
+
+
+    .main-2-elements-btn{
+        background-color: white;
+        height: 35px;
+        width: 120px;
+        border: none;
+        border-radius: 35px;
+        cursor: pointer;
+        margin-left: 60%;
+        margin-top: 3%;
+        font-size: 15px;
+    }
+
+    .main-2-element-2{
+        margin-top: 15px;
+    }
+
+    .main-2-element-3{
+        margin-top: 10px;
+    }
+
+    .main-2-clock-div{
+        height: 60%;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+    .main-2-grid{
+        /* background-color: black; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows:    repeat(4, 1fr);
+        height: 100%;
+        margin-top: 40px;
+    }
+
+    .main-2-grid-childs{
+        width:  90%;
+        height: 95%;
+        background-color: red;
+        border-radius: 30px;
+        background: rgb(255,235,180);
+        background: linear-gradient(180deg, rgb(248, 233, 190) 0%, rgba(255,255,255,1) 100%);
+        border: solid 2px rgb(255, 187, 0);
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+
+
+
+    .main-3{
+        margin-top: 340px;
+        width: 100%;
+        height: 160vh;
+        margin-left: 0%;
+    }
+
+    .main-3-p-div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    
+.main-block{
+    width: 100%;
+}
+body{overflow-x:hidden;}
+
+    .main-4{
+        margin-top:170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .main-4-img-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+
+    .main-4-p{
+    }
+
+
+
+    .main-5{
+        margin-top: 1500px;
+    }
+}
+
