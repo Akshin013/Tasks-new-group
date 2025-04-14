@@ -24,12 +24,12 @@ function todoAdd() {
 
     let now = Date.now();
     console.log(now);
-    
+    let a = prompt("Enter your todo")
     mainTodo.innerHTML += `
     <div id="${f}" class="${now}">
          <div id="todo-div">
         <p>
-            asfd
+            ${a}
         </p>
         </div>
 
