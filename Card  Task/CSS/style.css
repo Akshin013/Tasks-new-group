@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: courier, monospace;
+}
+
+#main-div{
+    background-color: gray;
+    width: 25%;
+    margin: auto;
+    height: 60vh;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#input-div{
+    border-radius: 20px;
+    background-color: rgb(191, 183, 183);
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#checkBtn{
+    background-color: rgb(18, 246, 18);
+    border: solid rgb(12, 136, 12) 1px;
+    border-radius: 10px;
+    cursor: pointer;    
+    width: 25%;
+    height: 20%;
+    font-size: 20px;
+    margin-left: 37%;
+    margin-top: 20px;
+}
+
+#card{
+    background-color: rgb(16, 147, 198);
+    width: 330px;
+    height: 200px;
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 20px ;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: solid rgb(2, 61, 84) 1px;
+  }
+#nomer{
+    font-family: courier, monospace;
+    font-size: 25px;
+    margin-left: 20px;
+    color: black;
+    
+}
+
+.name{
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+
+p5{
+    font-size: 11px;
+    color: black;
+    font-weight: 100;
+}
+
+.data{
+    height: 30px;
+    width: 100px;
+    font-size: 19px;
+    color: black;   
+}
+
+.data1{
+    height: 40px;
+    width: 100px;
+    
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.visa{
+    display: flex;
+    margin-top: -55px;
+    margin-left: 205px;
+    width: 100px;
+    height: 35px;
+}
+.chip{
+    width: 60px;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+#input-div input{
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    height: 20%;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-top: 20px;
+}
+
+#menu-div{
+    border-radius: 20px;
+    background-color: rgb(191, 183, 183);
+    width: 80%;
+    margin-left: 10%;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-info{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2{
+    margin-top: 20px;
+    margin-left: 5%;
+    width:  90%;
+    height: 35px;
+    display: flex;
+}
+
+
+
+
+.eye-btn{
+    width:  30px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.eye-btn img{
+    width:  100%;
+    height: 100%;
+
+
+}
+
+
+.card-2 input{
+    height: 100%;
+    width: 70%;
+    border-radius: 10px;
+    border: solid 1px black;
+} 
+
+.card-2 button{
+    height: 100%;
+    width: 29%;
+}
+
+#cash-btn{
+    background-color: rgb(18, 246, 18);
+    border: solid rgb(12, 136, 12) 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#balance{
+    font-size: 20px;
+}
+
+
+/* 
+    background-color: rgb(18, 246, 18);
+    border: solid rgb(12, 136, 12) 1px;
+    border-radius: 10px;
+    cursor: pointer;    
+    width: 25%;
+    height: 20%;
+    font-size: 20px;
+    margin-left: 37%;
+    margin-top: 20px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

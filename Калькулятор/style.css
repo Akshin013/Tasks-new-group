@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+.kalk-div{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.result-div{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 30%;
+    margin-top: 20px;
+    display: flex;
+    align-items: end;    
+}
+
+.kalk-btn-div{
+    background-color: rgb(0, 0, 0);
+    height: 60%;
+    width: 94%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btn-grid{
+    background-color: rgb(82, 82, 82);
+    border-radius: 55%;
+    height: 90%;
+    width:  100%;
+    color: beige;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.kalk-img{
+    height: 40%;
+    width:  40%;
+
+}
+
+.right-btn{
+    background-color: orange;
+}
+
+.top-btn{
+    background-color: grey;
+}
+
+#result{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    font-size: 38px;
+}
+
+.dd{
+    width: 100px;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
