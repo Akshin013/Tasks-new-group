@@ -45,11 +45,11 @@ width: 40%;
 height: 60px;
 }
 
-#done-btn{
+.done-btn{
 background-color: rgb(10, 99, 10);
 }
 
-#edit-btn{
+.edit-btn{
 background-color: rgb(255, 255, 0);
 }
 
@@ -58,7 +58,7 @@ background-color: rgb(200, 13, 13);
 cursor: pointer;
 }
 
-#delete-btn, #done-btn, #edit-btn{
+#delete-btn, .done-btn, .edit-btn{
     border-radius: 10px;
     width: 32%;
     height: 100%;

@@ -10,40 +10,70 @@ let mainDiv =  document.getElementById("main-div");
     // let now = Date.now();
     // console.log(now);
     
-    function vv() {
-    console.log(f);
-    let m = document.getElementsByClassName(`${now}`)
-    m.style.color = "red1"
+    // function vv() {
+    // console.log(f);
+    // let m = document.getElementsByClassName(`${now}`)
+    // m.style.color = "red1"
     
-    console.log(`${now}`);
-    
-}   
+    // let now = Date.now();
+    // console.log(now);
+    // let doneNow = Date.now();
+    // console.log(now);
+    function cc() {
+        console.log("asd");
+        console.log(`${now}`);
+        
+        console.log(`${doneNow}`);
+    }
+
+// }   
 
 function todoAdd() {
-    const g = vv()
-
+    let f = 1
+    // const g = vv()
     let now = Date.now();
+    // let now = Date.now();
     console.log(now);
+    let doneNow = Date.now();
+    // let doneNow = Date.now();
+    // console.log(now);
     let a = prompt("Enter your todo")
+    localStorage.setItem(`${now}`, a)
+    console.log(localStorage.getItem(`${now}`));
+    
     mainTodo.innerHTML += `
-    <div id="${f}" class="${now}">
+    <div id="${now}" class="main-div">
          <div id="todo-div">
-        <p>
-            ${a}
-        </p>
+        <p>${a}</p>
         </div>
 
         <div id="btn-div" class=""> 
-            <button id="done-btn" onclick="g()">Done</button>
-            <button id="edit-btn">Edit</button>
+            <button id="${doneNow}" class="done-btn">Done</button>
+            <button id="${f}" class="edit-btn">Edit</button>
             <button id="delete-btn" onclick="deleteF()">Dlete</button>
         </div>  
         </div>
     `
-    // mainTodo.innerHTML += `<button onclick="vv()">Done</button>`;
-    let todoDiv =  document.getElementById("todo-div");
-    console.log(todoDiv);
+
+
+
+    // // mainTodo.innerHTML += `<button onclick="vv()">Done</button>`;
+    // let todoDiv =  document.getElementById("todo-div");
+
+    // const doneBtn = document.getElementById(`${doneNow}`);
+    // console.log(doneBtn);
+    
+    // doneBtn.addEventListener("click", cc) 
+    // doneBtn.addEventListener("click", ()=>{ 
+    //     console.log(`${doneNow}`);
+        
+
+    //     console.log(`${now}`);
+    //     // now.style.backgroundColor = "red";
+    // })
+    // // console.log(todoDiv);
 }
 
 
 addBtn.addEventListener("click", todoAdd)
+localStorage.clear()
