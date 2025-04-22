@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* max-width: 100vh; */
+}
+:root{
+    --orange: #FFCA42;
+    --blue: #1B3764;
+    --font-inter: inter;
+    --font-cardo: cardo;
+    --ff: #FFFFFF;
+}
+
+@media (max-width:767px) {
+    .main-1{
+        /* background-color: grey; */
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .main-1  header{
+        /* background-color: aqua; */
+        width: 100vw;
+        height: 10vh;
+        margin: auto;
+        display: flex;
+    }
+    .header-links{
+        display: none;
+    }
+    .header-childs{
+        /* background-color: red; */
+        border-radius: 10px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .header-child-1{
+        width: 80%;
+        display: flex;
+    }
+    
+    .header-child-2{
+        display: none;
+    }
+    .header-child-3{
+        width: 90%;
+        display: flex;
+        /* background-color: red; */
+    }
+    .header1-img{
+        height: 50%;
+        margin-left: 5px;
+    }
+    .header-img{
+        display: none;
+    }
+
+    .header-img-mob{
+        height: 30px;
+        cursor: pointer;
+        margin-left: 7px;
+    }
+    .header-img-div{
+        margin-left: 10px;
+        margin-top: 40px;   
+        /* background-color: #FFCA42; */
+    }
+    .main-1-div{
+        /* margin-top: 1600px; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2,1fr);
+    
+    }
+    .header-child-1-p{
+        font-family:"Inter", sans-serif;
+        color: var(--ff);
+        margin-left: 5px;
+    }
+    .header-child-3 button{
+        background-color: var(--orange);
+        font-family: "Cardo";
+        border: none;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 5px;
+        height: 60%;
+        /* margin: 10px; */
+        width: 70%;
+    }
+    .main-2-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .bm-btn{
+        /* font-size: 15px;
+        font-family: "Cardo";
+        font-size: 15px; */
+        display: flex;
+        justify-content: center;
+        /* display: none; */
+        width: 50%;
+        height: 50%;
+        display: flex;
+        /* background-image: url("/Практика фигма/images/burger-menu.png"); */
+        /* background-color: red; */
+    }
+    .bm-img{
+        display: flex;
+        /* display: none; */
+        height: 100%;
+        width: 50%;
+    }
+    .bm-result-div{
+        height: 100%;  
+        width:  100vw;
+        background-color: rgb(24, 24, 81);
+        display: block;
+        margin-top: -109px; 
+    }
+    .bm-result-div-none{
+        display: none;
+    }
+    .bm-a{
+        color: white;
+        font-family: var(--font-inter);
+        font-size: 17px;
+        margin-left: 15px;
+        margin-top: 25px;
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .header-link1{
+        display: flex;
+        margin-top: 150px;
+        color: red;
+    }
+    ..main-2-div h1{
+        font-size: 25px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

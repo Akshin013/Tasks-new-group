@@ -1,0 +1,1101 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
+:root{
+    --orange: #FFCA42;
+    --blue: #1B3764;
+    --font-inter: inter;
+    --font-cardo: cardo;
+    --ff: #FFFFFF;
+}
+
+.main-1{
+    background-color: #1B3764;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.main-1 header{
+    width: 70%;
+    height: 10%;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+}
+
+.header-childs{
+    height: 50%;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+}
+
+.header-img-div{
+    margin-left: 40px;
+}
+
+.header1-img{
+    height: 28px;
+    width:  24px;
+    display: flex;
+}
+
+.header-child-1{
+    display: flex;
+    width: 40%;
+}
+
+.header-child-1-p{
+    font-size: 28px;
+    font-family:"Inter", sans-serif;
+    margin-left: 33px;
+    font-weight: 700;
+    color: var(--ff);
+}
+
+.header-img{
+    height: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.header-links{
+    text-decoration: none;
+    color: var(--ff);
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+}
+
+.header-child-2{
+    display: flex;
+    gap: 30px;
+    width: 40%;
+}
+
+.header-child-2-img-div{
+    background-image: url("/Практика фигма/images/Vector (1).png");
+    background-size:contain;
+    grid-template-columns:  repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    height: 40px;
+    width:  40px;
+}
+
+.header-cart{
+    background-color: var(--orange);
+    border-radius: 100%;
+    width:  23px;    
+    height: 23px;
+    margin-left: 28px;  
+    margin-top: -5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family:"Inter", sans-serif;
+    font-weight: 800;
+}
+
+.header-child-3{
+    width: 20%;
+}
+
+.header-img-mob{
+    display: none;
+}
+
+
+.header-child-3 button{
+    background-color: var(--orange);
+    font-family: "Cardo";
+    border: none;
+    font-size: 19px;
+    height: 100%;
+    margin: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.bm-btn{
+    display: none;
+}
+.bm-img{
+    display: none;
+}
+
+.main-1-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin-top: 10px;
+}
+
+.main1-1 p{
+    font-size: 24px;
+    font-family: "Cardo";
+    color:var(--ff);
+}
+
+.main1-2 h1{
+    font-size: 65px;
+    font-family: "Cardo";
+    color:var(--ff);
+    margin-top: 20px;
+}
+
+.main1-2 p{
+    font-family:"Inter", sans-serif;
+    font-size: 19px;
+    color: grey;    
+    margin-top: 20px;
+}
+
+.main1-3{
+    background-color: #1B3764;
+    height: 65px;
+    width: 70%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main1-3 button{
+    cursor: pointer;
+    height: 100%;
+    background-color: var(--orange);
+    border: none;
+    color: var(--blue);
+    width: 50%; 
+    font-size: 19px;
+    font-family: "Cardo";
+}
+
+.main1-3 p{
+    color: var(--ff);
+    font-family: "Cardo";
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.main1-3 hr{
+    margin-left: 50px;
+}
+
+.main1-4{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.main1-point{
+    height: 20px;   
+    width:  20px;    
+}
+
+.main-1-4-childs{
+    display: block;
+    width: 30%;
+}
+
+
+.main1-1-1{
+    display: flex;
+}
+
+.main-ps{
+    color: grey;
+    font-size: 18px;
+    font-family:"Inter", sans-serif;
+    margin-top: 10px;
+    margin-left: 34px;
+    background-image: linear-gradient(45reg, #f3ec78, #af4261);
+    background-size: 100%;
+}
+
+.main1p-white{
+    color: var(--ff);
+    font-size: 24px;
+    margin-left: 14px;
+}
+
+.main-1-4-childs div{
+    display: flex;
+}
+
+
+.main1-3div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main1-div2 img{
+    margin: auto;
+    margin-left: 15%;
+    width:  85%;
+
+}
+
+.main1-div2{
+    background-color: #DBE1E9;
+
+    height: 100%;
+}
+
+.main1-div2-1{
+    width: 96%;
+    height: 96%;
+    margin-left: 2%;
+    margin-top:  2%;
+    background-color: white;
+}
+
+.aaa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: var(--blue);
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+
+.v{
+    background-color: white;
+    text-align: center;
+    width: 67%;
+    margin:auto;
+    flex-direction: column;
+    height: 77px;
+    background-image: url("/Практика фигма/images/Pattern (1).png") ;
+}
+
+.vv{
+    background-color: white;
+    text-align: center;
+    width: 36%;
+    margin:auto;
+    flex-direction: column;
+    height: 77px;
+    background-image: url("/Практика фигма/images/Pattern.png") ;
+}
+
+.aa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: var(--blue);
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.main1-div2-p{
+    color: var(--blue);
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center; 
+    margin-top: 22px;   
+}
+
+.bm-a{
+    display: none;
+}
+.bm-img{
+    display: none;
+}
+.line-img-div{
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    gap: 1px;
+    width: 10%;
+    margin: auto;
+}
+
+.krug{
+    height: 163px;  
+    width: 163px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-image: url("/Практика фигма/images/Background (2).png");
+}
+
+.krug-child{
+    background-color: var(--orange);
+    height: 145px;  
+    width: 145px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.krug-p1{
+    font-size: 20px;
+    color: var(--blue);
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.krug-p2{
+    color: var(--blue);
+    font-size: 14px;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+
+.krug-div{
+    width: 60%;
+    margin: auto;
+    justify-items: end;
+}
+
+.lamp-div{
+    width:  40%;
+    height: 45%;
+    margin-top: -120px;
+    margin-left: 110px;
+    background-image: url("/Практика фигма/images/Lamp.png");
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.lamp-div p{
+    color: var(--blue);
+    font-family:"Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.john{
+    color: var(--blue);
+    font-size: 25px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+
+.main1-footer-p{
+    color: var(--blue);
+    font-size: 16px;
+    text-align: center;
+    font-family: "Cardo", serif;
+    font-style: italic;
+}
+
+
+.main-2{
+    height: 85vh;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.main-2-div{
+    width: 70%;
+    margin: auto;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-2-div h1{
+    color: var(--blue);
+    font-family: "Cardo", serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.main-2-content{
+    width: 100%;
+    height: 75%;
+    background-color: #DBE1E9;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.sap-img{
+    width: 5%;
+    height: 3px;
+    margin-top: -11px;
+    margin: auto;
+}
+
+.main-2-childs{
+    /* height: 80%; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+
+.main-2-p1{
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--blue);
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.main-2-p2{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 19px;   
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.main-2-book-info-div{
+    display: flex;
+}
+
+.main-2-info{
+    display: flex;
+}
+
+.main-2-info img{
+    height: 16px;
+    width: 16px;
+}
+
+.main-2-info p{
+    color: var(--blue);
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.main-2-book-info{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.main-2-book-info-p{
+    color: grey;
+    font-family: inter;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+
+
+.main-2-book-1-btn{
+    background-color: white;
+    border: solid 1px var(--orange);
+    width: 80%;
+    height: 15%;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.main-2-book-2-div{
+    background-color: grey;
+    width: 292px;
+    height: 396px;
+}
+
+.main-2-book-2{
+    background-color: white;
+    display: block;
+    flex-direction: column;
+    width: 96%;
+    height: 96%;
+    margin-left: 2%;
+    margin-top:  2%;
+}
+
+.book-aaa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: var(--blue);
+    background-color: white;
+    height: 24px;
+    width: 100%;
+}
+
+.book-v h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.book-v{
+    background-color: black;
+    text-align: center;
+    width: 90%;
+    margin:auto;
+    height: 39px;
+    background-image: url("/Практика фигма/images/Pattern (1).png") ;
+    margin-top: 5px;
+}
+
+.book-vv{
+    background-color: white;
+    width: 42%;
+    margin:auto;
+    height: 39px;
+    background-image: url("/Практика фигма/images/Pattern.png") ;
+    /* margin-top: -300px; */
+}
+
+.book-vv h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;   
+}
+
+.book-aa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: var(--blue);
+    background-color: white;
+    height: 24px;
+    width: 100%;
+
+}
+
+
+.main2-p{
+    color: var(--blue);
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-size: 10px;
+    font-style: italic;
+    text-align: center; 
+    margin-top:2px;   
+}
+
+.line-img-div-book{
+    display: flex;
+    height: 1%;
+    justify-content: center;
+    gap: 1px;
+    width: 10%;
+    margin: auto;
+}
+
+.lamp-div-book{
+    width:  40%;
+    height: 60%;
+    margin-top:  10px;
+    margin-left: 80px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.lamp-div p{
+    color: var(--blue);
+    font-family:"Inter", sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    text-align: center;
+}
+
+.main-2-df{
+    display: flex;
+}
+
+.df-img{
+    height: 82px;
+}
+
+.main2-p{
+    color: var(--blue);
+    font-size: 15px;
+    font-family: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main2-p2{
+    color: var(--blue);
+    font-size: 10px;
+    font-family: 400;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.main-3{
+    background-color: #F4F8FF;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main3-div{
+
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    width: 70%;
+    margin: auto;
+    height: 70%;
+    /* background-color: red; */
+}
+.main-3-childs{
+/* background-color: red; */
+border-radius: 40px;
+}
+
+.main-3-p1{
+    font-size: 45px;
+    color: var(--blue);
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.main-3-flex{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.main-3-p2{
+    color: #969AA0;
+    font-size: 19px;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.main-3-sop{
+    margin-top: 30px;
+}
+.main-3-grid{
+    display: block;
+
+}
+
+.main3-p1{
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    color: var(--blue);
+    font-size: 55px;
+}
+
+.main3-p2{
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #969AA0;
+}
+
+.main3-qr-div{
+    background-color: var(--blue);
+    width:  70%;
+    height: 25%;
+    display: flex;
+}
+
+.qr-div{
+    background-color: white;
+    padding: 12px;
+    margin:  23px;
+}
+
+.main-3-qr-ps{
+
+}
+
+/* .main3-child-flex{
+    display: flex;
+
+} */
+
+.main3-name{
+    color: var(--orange);
+    font-size: 22px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.main3-about{
+    color: #969AA0;
+    font-size: 19px;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.main3-photo-back{
+    background-color: white;
+    border: 12px solid #FFCA42;
+    height: 90%;
+    width:  90%;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.main3-photo-back img{
+    /* margin-top: -30px; */
+    height: 100%;
+    width:  100%;
+    margin-top:  -30px;
+    margin-left: -30px;    
+}
+
+.main-4{
+    background-color: white;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.main4-div{
+    width: 70%;
+    margin: auto;
+    height: 60%;
+}
+
+.main4-info{
+    display: block;
+}
+.main4-info img{ 
+    height: 88px;
+}
+
+.main4-h1{
+    color: var(--blue);
+    font-size: 45px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main4-info-div{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 10px;
+}
+
+.main4-info{
+    height: 40%;
+    text-align: center;
+}
+
+.main4-p1{
+    color: var(--blue);
+    font-size: 24px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.main4-p2{
+    color: #969AA0;
+    font-size: 18px;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.main4-sep-div{
+    width: 1%;
+    margin: auto;
+}
+
+
+.main-5{
+    background-color: var(--blue);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.main-5gr{
+    width: 70%;
+    margin: auto;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.main5-childs{
+    height: 100%;
+    border-radius: 40px;    
+}
+
+.main5-p1{
+    color: white;
+    font-size: 45px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.main5-p2{
+    color: #969AA0;
+    font-size: 18px;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.main5-btn{
+    background-color: var(--blue);
+    border: 1px #FFCA42 solid;
+    width: 220px;
+    height:  65px;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+
+.main-6{
+    width: 100%;
+    height: 110vh;  
+    margin: auto;
+    background-color: white;
+}
+
+.main6-div{
+    width: 70%;
+    margin: auto;
+    height: 80%;
+    margin-top: 10%;
+}
+
+.main6-h1{
+    color: var(--blue);
+    font-size: 45px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main6-grid{
+    height: 80%;
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.lmain6-child1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:    30px;
+    padding: 20px;
+}
+
+.main6-child1-div{
+    background-color: #F4F8FF;
+}
+
+.main6-krug-div{
+    height: 50px;   
+    width: 50px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: var(--blue);
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    margin: 20px;
+    background-image: url("/Практика фигма/images/Bg.png");
+
+}
+
+.main6-grid-p{
+    color: var(--blue);
+    font-size: 24px;
+    font-family: "Cardo", serif;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+
+.main6-photo-back{
+    background-color: white;
+    border: 12px solid #FFCA42;
+    height: 90%;
+    width:  90%;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+
+.main6-photo-back img{
+    /* margin-top: -30px; */
+    height: 100%;
+    width:  100%;
+    margin-top:  -30px;
+    margin-left: -30px;    
+}
+
+.articel-div{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #F4F8FF;
+}
+
+.articel-p{
+    color: var(--blue);
+    font-size: 45px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.articel-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.articel-grid-childs{
+
+}
+
+.articel-grid-p2{
+    margin-top: 15px;
+    color: var(--blue);
+    font-size: 24px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+}
+
+.articel-grid-p3{
+    margin-top: 10px;
+    color: #969AA0;
+    font-size: 19px;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+}
+
+.articel-fl{
+    display: flex;
+    color: var(--blue);
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 20px;
+    justify-content: space-between  ;
+}
+
+.read-div{
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.read-child{
+    width: 70%;
+    background-color: var(--orange);
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.read-child-p1{
+    margin-top: 100px;
+    color: var(--blue);
+    font-size: 45px;
+    font-family: "Cardo", serif;
+    font-weight: 700;   
+    text-align: center;
+}
+
+.read-child-p2{
+    margin-top: 30px;
+    color: var(--blue) ;
+    font-size: 19px;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.read-input-div{
+    width: 70%;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.read-input-div input{
+    width:  70%;
+    height: 100%;
+    font-size: 17px;
+}
+
+.read-input-div button{
+    background-color: var(--blue);
+    height: 100%;
+    width: 30%;
+    font-size: 19px;
+    color: white;
+    font-family: "Cardo", serif;
+    font-weight: 700;  
+    text-align: center;
+}
+
+
+
+
