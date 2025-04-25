@@ -1,23 +1,51 @@
-const inp =document.getElementById("inp")
-const box = document.getElementById("box")
-const form = document.getElementById("form")
+let  a = [2,2,3,4,5,7]
+let  b = [2,3,5,10,18]
 
-let number = "";
-inp.addEventListener("input", (e) => {
-    number = +e.target.value;
+
+
+
+// let c = a.filter(i)
+// console.log(c);
+
+
+
+let c = [i,i,i,i,i] = a
+let e = [i,i,i,i,i] = b
+
+c.forEach(i () =>{
+    if(i===e[i]){
+        console.log();
+        
+    }
 })
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
 
-    let factorial = 1;
-    for (let i = 1; i <= number; i++) {
-        factorial *= i;
-    } 
-    const msj = `${number} ededin fator: <span class="result">${factorial}</span>`
-    box.innerHTML = msj;
+// a.forEach(i => {
+//     // c.push(i)
+//     // console.log(c);
+    
 
-    inp.value = "";
-    inp.focus();
-});
+//     console.log(i);
+//     if (i===c) {
+//         console.log(i+"  "+ "ee");
+
+        
+//     }else{
+//         console.log("err");
+        
+//     }
+// })
+
+// console.log(c);
+
+//  b.forEach(i => {
+//      console.log(i);
+//      if (i===a) {
+//          console.log(i+"  "+ "ee");      
+//      }else{
+//          console.log("err");      
+//      }
+//  })
+
+
 
