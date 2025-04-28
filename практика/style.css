@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+.info{
+    border: 2px black solid;
+    padding: 10px;
+}
+
+#container{
+    display: grid;
+    /* background-color: red; */
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(5 ,1fr);
+    gap: 10px;
+    font-size: 20px;
+}
+
+#container2{
+    background-color: rgb(199, 196, 196);
+    border: 2px rgb(128, 126, 126) solid;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
