@@ -1,4 +1,4 @@
-const studentsDiv = document.getElementById("students-div") 
+    const studentsDiv = document.getElementById("students-div") 
 const teachersDiv = document.getElementById("teachers-div") 
 
 const peopleChangeInp = document.getElementById("peopleChangeInp")
@@ -18,7 +18,7 @@ const getUsers = (url) => {
             const dd = JSON.stringify(id);
             // console.log(id);
             studentsDiv.innerHTML +=`
-            <div id="card">
+            <div id="card"> 
                 <p>${username}</p> 
                  <div class="btn-div">
                     <button id="edit-btn" onclick='editFunc("${id}", "${url}","${username}")'>

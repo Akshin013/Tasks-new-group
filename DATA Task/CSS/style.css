@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#main-div{
+    /* background-color: red; */
+    border: 1px black solid;
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+}
+
+#main-child{
+    border-radius: 34px;
+    width: 100%;
+    width: 100%;
+    border: 1px black solid;
+}
+
+#img-div{
+    border: 1px black solid;
+    background-image: url("/DATA Task/images/coursesimage.svg");
+    background-size: cover; 
+    width: 100%;
+    height: 45%;
+}
+
+#child-p1{
+    color: rgb(16, 16, 84);
+    font-size: 25px;
+
+}
+
+#child-p2{
+    font-size: 20px;
+    color: rgb(85, 84, 84);
+}
+
+#child-p3{
+    color: grey;
+    font-size: 17px;
+}
+
+#rate-div{
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.ml{
+    margin-left: 15px;
+    margin-top:  8px;
+}
+
+
+#rate-price-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+#btn-div{
+    display: flex;
+    margin-right: 15px;
+    height: 50px;
+    gap: 10px;
+}
+
+#about-btn{
+    height: 100%;
+    background-color: rgb(16, 16, 84);
+    border: none;
+    color: white;
+    width: 100%;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#basket-btn{
+    height: 100%;
+    cursor: pointer;
+    width:  15%;
+    border: 1px rgb(16, 16, 84) solid;
+    border-radius: 100px;
+    background-color: white;
+}
+
+#price-line{
+    text-decoration: line-through red 2px;
+    font-size: 16px;
+}
+
+#data-img{
+    height: 100%;
+    width: 100%;
+}
+
+#price-div{
+    gap: 8px;
+    display: flex;
+}
+
+
+@media (max-width:1000px) {
+    
+#main-div{
+    /* background-color: red; */
+    border: 1px black solid;
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1,1fr);
+    /* grid-template-rows: auto; */
+}
+
+}
