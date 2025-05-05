@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .header-p{
@@ -17,22 +18,34 @@
     border: 1px black solid;
     width: 90%;
     margin: auto;
-    height: 100vh;
+    /* height: max-content; */
+    /* display: grid; */
+    /* gap: 20px; */
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-rows: repeat(4,1fr); */
+    /* grid-template-rows: auto; */
     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* адаптивность */
     gap: 20px;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
+    padding: 20px;
+
 }
+  
 
 #main-child{
-    border-radius: 34px;
-    width: 100%;
-    width: 100%;
-    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px; /* одинаковая высота */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    /* padding: 10px; */
+    background: white;
 }
-
+  
 #img-div{
-    border: 1px black solid;
+    /* border: 1px black solid; */
     background-image: url("/DATA Task/images/coursesimage.svg");
     background-size: cover; 
     width: 100%;
@@ -112,6 +125,20 @@
 
 #price-div{
     gap: 8px;
+    display: flex;
+}
+
+#addElement{
+    height: 500px;
+    width:  40%;
+    border-radius: 20px;
+    margin-left: 30%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;   
+}
+
+.rate-fl{
     display: flex;
 }
 

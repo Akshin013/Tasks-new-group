@@ -1,4 +1,4 @@
-    const studentsDiv = document.getElementById("students-div") 
+const studentsDiv = document.getElementById("students-div") 
 const teachersDiv = document.getElementById("teachers-div") 
 
 const peopleChangeInp = document.getElementById("peopleChangeInp")
