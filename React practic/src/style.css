@@ -1,0 +1,29 @@
+.nav-div{
+    background-color: black;
+    width: 100%;
+    /* margin: auto; */
+    /* margin-top: 0px; */
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-p{
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.links-div{
+    display: flex;
+    gap: 30px;
+}
+
+.links-div a{
+    color: white;
+
+    
+    font-size: 20px;
+    text-decoration: none;
+}
