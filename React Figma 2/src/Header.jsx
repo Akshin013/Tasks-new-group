@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Header = () => {  
     const links = [
         {id:0, title:"Our Plans",        path:"#"},
         {id:1, title:"How It",           path:"#"},
