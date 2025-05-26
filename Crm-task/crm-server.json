@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "id": "a1b2c3",
+      "name": "Алексей Иванов",
+      "email": "aleksey.ivanov@example.com",
+      "phone": "+7 900 111-22-33"
+    },
+    {
+      "id": "d4e5f6",
+      "name": "Мария Смирнова",
+      "email": "maria.smirnova@example.com",
+      "phone": "+7 900 222-33-44"
+    },
+    {
+      "id": "g7h8i9",
+      "name": "Иван Козлов",
+      "email": "ivan.kozlov@example.com",
+      "phone": "+7 900 333-44-55"
+    },
+    {
+      "id": "j1k2l3",
+      "name": "Ольга Петрова",
+      "email": "olga.petrova@example.com",
+      "phone": "+7 900 444-55-66"
+    },
+    {
+      "id": "m4n5o6",
+      "name": "Дмитрий Соколов",
+      "email": "dmitriy.sokolov@example.com",
+      "phone": "+7 900 555-66-77"
+    },
+    {
+      "id": "p7q8r9",
+      "name": "Наталья Морозова",
+      "email": "natalya.morozova@example.com",
+      "phone": "+7 900 666-77-88"
+    },
+    {
+      "id": "s1t2u3",
+      "name": "Сергей Кузнецов",
+      "email": "sergey.kuznetsov@example.com",
+      "phone": "+7 900 777-88-99"
+    },
+    {
+      "id": "v4w5x6",
+      "name": "Екатерина Новикова",
+      "email": "ekaterina.novikova@example.com",
+      "phone": "+7 900 888-99-00"
+    },
+    {
+      "id": "y7z8a9",
+      "name": "Андрей Фёдоров",
+      "email": "andrey.fedorov@example.com",
+      "phone": "+7 900 999-00-11"
+    },
+    {
+      "id": "b0c1d2",
+      "name": "Татьяна Васильева",
+      "email": "tatyana.vasileva@example.com",
+      "phone": "+7 900 000-11-22"
+    },
+    {
+      "id": "56bc",
+      "name": "wert",
+      "email": "wertwert",
+      "phone": "ewrt"
+    },
+    {
+      "id": "a2f0",
+      "name": "yrety",
+      "email": "ertyerty",
+      "phone": "4563456546"
+    },
+    {
+      "id": "ad43",
+      "name": "234523",
+      "email": "453245",
+      "phone": "32452345"
+    },
+    {
+      "id": "1251",
+      "name": "53245",
+      "email": "234523",
+      "phone": "452345"
+    }
+  ],
+  "archive": [
+    {
+      "id": "v4w5x6",
+      "name": "Екатерина Новикова",
+      "email": "ekaterina.novikova@example.com",
+      "phone": "+7 900 888-99-00"
+    },
+    {
+      "id": "v4w5x6",
+      "name": "Екатерина Новикова",
+      "email": "ekaterina.novikova@example.com",
+      "phone": "+7 900 888-99-00"
+    },
+    {
+      "id": "315b",
+      "name": "asdf",
+      "email": "asdf",
+      "phone": "324523445235423"
+    },
+    {
+      "id": "723f",
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": "723f",
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": "315b",
+      "name": "asdf",
+      "email": "asdf",
+      "phone": "324523445235423"
+    },
+    {
+      "id": "72c7"
+    },
+    {
+      "id": "9961",
+      "name": "324523",
+      "email": "45235",
+      "phone": "2345234"
+    },
+    {
+      "id": "b7c7",
+      "name": "2345",
+      "email": "2345234",
+      "phone": "5324"
+    },
+    {
+      "id": "6325",
+      "name": "5234",
+      "email": "5235",
+      "phone": "345234"
+    },
+    {
+      "id": "ff26",
+      "name": "523523",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": "da08"
+    },
+    {
+      "id": "78c1",
+      "name": "Akshin",
+      "email": "email",
+      "phone": "702820655"
+    },
+    {
+      "id": "8e19",
+      "name": "вап",
+      "email": "ывапыв",
+      "phone": "453"
+    },
+    {
+      "id": "9107",
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": "1dbf",
+      "name": "уцкеуц",
+      "email": "кецукецуе",
+      "phone": "3464634656"
+    },
+    {
+      "id": "9b47",
+      "name": "qwer",
+      "email": "wqerqwer532",
+      "phone": "3245"
+    },
+    {
+      "id": "db2e",
+      "name": "Akshin",
+      "email": "Email",
+      "phone": "702820655"
+    }
+  ]
+}
