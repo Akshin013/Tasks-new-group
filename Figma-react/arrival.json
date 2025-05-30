@@ -1,63 +1,151 @@
 {
-    "productsMain4":[
-        {
-            "id":"0",
-            "name":"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-            "price":"$900",
-            "liked":false,
-            "image":"Images/main4-img1.png"
-        },
-        {
-            "id":"1",
-            "name":"Blackmagic Pocket Cinema Camera 6k",
-            "price":"$2535",
-            "liked":false,
-            "image":"Images/main4-img2.png"
-        },
-        {
-            "id":"2",
-            "name":"Apple Watch Series 9 GPS 41mm Starlight Aluminium ",
-            "price":"$399",
-            "liked":false,
-            "image":"Images/main4-img3.png"
-        },
-        {
-            "id":"3",
-            "name":"AirPods Max Silver Starlight Aluminium ",
-            "price":"$549",
-            "liked":false,
-            "image":"Images/main4-img4.png"
-        },
-        {
-            "id":"4",
-            "name":"Samsung Galaxy Watch6 Classic 47mm Black",
-            "price":"$369",
-            "liked":false,
-            "image":"Images/main4-img5.png"
-        },
-        {
-            "id":"5",
-            "name":"Galaxy Z Fold5 Unlocked | 256GB | Phantom Black",
-            "price":"$1799",
-            "liked":true,
-            "image":"Images/main4-img6.png"
-        },
-        {
-            "id":"6",
-            "name":"Galaxy Buds FE Graphite",
-            "price":"$99.99",
-            "liked":false,
-            "image":"Images/main4-img7.png"
-        },
-        {
-            "id":"7",
-            "name":"Apple iPad 9 10.2 64GB Wi-Fi Silver (MK2L3) 2021",
-            "price":"$398",
-            "liked":false,
-            "image":"Images/main4-img8.png"
-        }
-    ],
-    "productsMain5":[
-        {}
-    ]
+  "productsMain4": [
+    {
+      "id": "0",
+      "name": "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+      "price": "$900",
+      "liked": false,
+      "image": "Images/main4-img1.png"
+    },
+    {
+      "id": "1",
+      "name": "Blackmagic Pocket Cinema Camera 6k",
+      "price": "$2535",
+      "liked": false,
+      "image": "Images/main4-img2.png"
+    },
+    {
+      "id": "2",
+      "name": "Apple Watch Series 9 GPS 41mm Starlight Aluminium ",
+      "price": "$399",
+      "liked": true,
+      "image": "Images/main4-img3.png"
+    },
+    {
+      "id": "3",
+      "name": "AirPods Max Silver Starlight Aluminium ",
+      "price": "$549",
+      "liked": true,
+      "image": "Images/main4-img4.png"
+    },
+    {
+      "id": "4",
+      "name": "Samsung Galaxy Watch6 Classic 47mm Black",
+      "price": "$369",
+      "liked": true,
+      "image": "Images/main4-img5.png"
+    },
+    {
+      "id": "5",
+      "name": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black",
+      "price": "$1799",
+      "liked": false,
+      "image": "Images/main4-img6.png"
+    },
+    {
+      "id": "6",
+      "name": "Galaxy Buds FE Graphite",
+      "price": "$99.99",
+      "liked": false,
+      "image": "Images/main4-img7.png"
+    },
+    {
+      "id": "7",
+      "name": "Apple iPad 9 10.2 64GB Wi-Fi Silver (MK2L3) 2021",
+      "price": "$398",
+      "liked": false,
+      "image": "Images/main4-img8.png"
+    }
+  ],
+  "productsMain5": [
+    {
+      "id": "9902"
+    }
+  ],
+  "discountProducts": [
+    {
+      "id": "0",
+      "name": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "price": "$1437",
+      "liked": false,
+      "image": "Images/main6-img1.png"
+    },
+    {
+      "id": "1",
+      "name": "AirPods Max Silver Starlight Aluminium",
+      "price": "$549",
+      "liked": false,
+      "image": "Images/main6-img2.png"
+    },
+    {
+      "id": "2",
+      "name": "Apple Watch Series 9 GPS 41mm Starlight Aluminium ",
+      "price": "$399",
+      "liked": true,
+      "image": "Images/main6-img3.png"
+    },
+    {
+      "id": "3",
+      "name": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "price": "$1499",
+      "liked": false,
+      "image": "Images/main6-img4.png"
+    }
+  ],
+  "main5Products": [
+    {
+      "id": "0",
+      "name": "Popular Products",
+      "title": "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
+      "image": "public/Images/main5-img1.png",
+      "color": "#FFFFFF    "
+    },
+    {
+      "id": "1",
+      "name": "Ipad Pro",
+      "title": "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
+      "image": "public/Images/main5-img2.png",
+      "color": "#F9F9F9"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy ",
+      "title": "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
+      "image": "public/Images/main5-img3.png",
+      "color": "#EAEAEA"
+    },
+    {
+      "id": "3",
+      "name": "Macbook Pro",
+      "title": "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
+      "image": "public/Images/main5-img4.png",
+      "color": "#2C2C2C"
+    }
+  ],
+  "Basket": [
+    {
+      "id": "0",
+      "name": "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+      "price": "$900",
+      "liked": false,
+      "image": "Images/main4-img1.png",
+      "piece": 1
+    },
+    {
+      "id": "3",
+      "name": "AirPods Max Silver Starlight Aluminium ",
+      "price": "$549",
+      "liked": true,
+      "image": "Images/main4-img4.png",
+      "piece": 0
+    },
+    {
+      "id": "2",
+      "name": "Apple Watch Series 9 GPS 41mm Starlight Aluminium ",
+      "price": "$399",
+      "liked": true,
+      "image": "Images/main4-img3.png",
+      "piece": 2
+    }
+  ]
 }

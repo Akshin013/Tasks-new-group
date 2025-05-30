@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../../../../Crm-task/src/Components/Common/Navbar'
+import Header from '../../Components/Common/Header'
 
 const Contact = () => {
   return (
     <div>
-        
+      <Header/>        
       Contact
     </div>
   )

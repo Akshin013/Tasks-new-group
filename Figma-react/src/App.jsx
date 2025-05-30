@@ -7,6 +7,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
+import Basket from './Pages/Basket'
 const App =()=> {
   // const [count, setCount] = useState(0)
 
@@ -14,9 +15,10 @@ const App =()=> {
     <div>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/Aboub' element={<About/>}/>
+        <Route path='/About' element={<About/>}/>
         <Route path='/Contact' element={<Contact/>}/>    
         <Route path='/Blog' element={<Blog/>}/>    
+        <Route path='/Basket' element={<Basket/>}/>
       </Routes> 
     </div>
   )
