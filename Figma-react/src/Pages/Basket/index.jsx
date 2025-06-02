@@ -3,14 +3,22 @@ import Header from '../../Components/Common/Header'
 import Footer from '../../Components/Common/Footer'
 import axios from 'axios'
 import { RxCross1 } from "react-icons/rx";
+import { Link, Routes } from 'react-router-dom'
 const Basket = () => {
     const [basketD, setBasketD] = useState([])
     const basket = "http://localhost:3000/Basket"
+    const [totalPriceD, setTotalPriceD] = useState('')
     useEffect(()=>{
         axios.get(basket).then(({data})=>{
             setBasketD(data)
         })
+
+        // axios.get(basket+'/2'+'/'+'price').then(({data})=>{
+        //     console.log(data);
+            
+        // })
     },[])
+
 
 
     const pieceCounterPlus =(id,piece)=>{
@@ -33,6 +41,26 @@ const Basket = () => {
         console.log("asfasfasfas");
         axios.delete(basket+"/"+id)
     }
+
+    const TotalPrice = () => {
+      const total = basketD.reduce((sum, item) => {
+        const numericPrice = parseFloat(item.price.replace('$', ''))
+        // console.log(total);
+        console.log(numericPrice);
+        return sum + numericPrice
+      }, 0)
+      console.log(total);
+      setTotalPriceD(total)
+      return (
+        <div className="text-xl font-semibold">
+          Total Price: ${total}
+        </div>
+      )
+    }
+
+    // console.log(totalPriceD+"ttoott");
+    
+
   return (
     <div>
         <Header/>
@@ -45,7 +73,7 @@ const Basket = () => {
                     {basketD.map(({id,name,price,liked,image,piece})=>{
                     
                     return(
-                        <div className='mt-6'>
+                        <div key={id} className='mt-6'>
 
                             <div key={id} className='flex items-center justify-between '>
                                 <div className=''>
@@ -92,27 +120,29 @@ const Basket = () => {
                     </div>
                     <div className='flex justify-between'>
                         <p className='text-[16px] text-[#000000] font-medium'>Subtotal</p>
-                        <p className='text-[16px] text-[#000000] font-medium'>sdf</p>
+                        <p className='text-[16px] text-[#000000] font-medium'>${totalPriceD ? totalPriceD : '-'}</p>
                     </div>
                     <div>
                         <div className='flex justify-between'>
                             <p className='text-[16px] text-[#545454] font-normal'>Estimated Tax</p>
-                            <p className='text-[16px] text-[#000000] font-medium'>50</p>
+                            <p className='text-[16px] text-[#000000] font-medium'>$50</p>
                         </div>
                         <div className='flex justify-between'>
                             <p className='text-[16px] text-[#545454] font-normal'>Estimated shipping & Handling</p>
-                            <p className='text-[16px] text-[#000000] font-medium'>50</p>
+                            <p className='text-[16px] text-[#000000] font-medium'>$29</p>
                         </div>
                     </div>
 
                     <div className='flex justify-between'>
                         <p className='text-[16px] text-[#000000] font-medium'>Total</p>
-                        <p className='text-[16px] text-[#000000] font-medium'>sdf</p>
+                        <p className='text-[16px] text-[#000000] font-medium'>${totalPriceD ? totalPriceD  + 79 : '-'}</p>
                     </div>
                     <div>
-                        <button className='text-[16px] text-[#FFFFFF] cursor-pointer h-14 w-md bg-[#000000] rounded-md'>
+                        <Link to="/Step1">
+                        <button onClick={TotalPrice} className='text-[16px] text-[#FFFFFF] cursor-pointer h-14 w-md bg-[#000000] rounded-md'>
                             Checkout
                         </button>
+                        </Link>
                     </div>
                 </div>
             </div>

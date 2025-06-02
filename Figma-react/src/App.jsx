@@ -8,9 +8,11 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
 import Basket from './Pages/Basket'
+import Step1 from './Pages/Step1'
+import Step2 from './Pages/Step2'
+import Step3 from './Pages/Step3'
 const App =()=> {
   // const [count, setCount] = useState(0)
-
   return (
     <div>
       <Routes>
@@ -19,6 +21,9 @@ const App =()=> {
         <Route path='/Contact' element={<Contact/>}/>    
         <Route path='/Blog' element={<Blog/>}/>    
         <Route path='/Basket' element={<Basket/>}/>
+        <Route path='/Step1' element={<Step1/>}/>
+        <Route path='/Step2' element={<Step2/>}/>
+        <Route path='/Step3' element={<Step3/>}/>
       </Routes> 
     </div>
   )

@@ -24,32 +24,32 @@ const Main3 = () => {
         
         
         <div className='grid grid-cols-6 gap-11'>
-            <div className='rounded-2xl bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
+            <div className='rounded-2xl cursor-pointer bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
                 <HiOutlineDevicePhoneMobile size={68}/>
                 <p>Phones</p>
             </div>
 
-            <div className='rounded-2xl bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
+            <div className='rounded-2xl cursor-pointer bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
                 <IoWatchOutline size={68}/>
                 <p>Smart Watches</p>
             </div>
 
-            <div className='rounded-2xl bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
+            <div className='rounded-2xl cursor-pointer bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
                 <MdOutlinePhotoCamera size={68}/>
                 <p>Cameras</p>
             </div>
 
-            <div className='rounded-2xl bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
+            <div className='rounded-2xl cursor-pointer bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
                 <CiHeadphones size={68}/>
                 <p>Headphones</p>
             </div>
 
-            <div className='rounded-2xl bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
+            <div className='rounded-2xl cursor-pointer bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
                 <HiOutlineComputerDesktop size={68}/>
                 <p>Computers</p>
             </div>
 
-            <div className='rounded-2xl bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
+            <div className='rounded-2xl cursor-pointer bg-[#EDEDED] flex flex-col items-center justify-center p-7 gap-4'>
                 <BiJoystickAlt size={68}/>
                 <p>Gaming</p>
             </div>
